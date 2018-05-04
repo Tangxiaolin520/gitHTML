@@ -1,0 +1,168 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+body{
+	background-color: #F2F2F2;
+}
+#wrapper{
+	width: 1376px;
+	background-color: #242424;
+}
+#top,#mid,#footer,#mid_top,#mid_lr,#mid_left,#mid_right,#zhong{
+	margin: 0px;
+	padding: 0px;
+}
+#top{
+	width: 1376px;
+	height: 550px;
+	border: 1px solid black;
+}
+#top_v{
+	margin: 0px;
+	margin-left:170px ;
+	width: 1000px;
+	height: 550px;
+	background-color: #000000;
+	border: 1px solid black;
+}
+#top video{
+	margin-left: 120px;
+	margin-top: 100px;
+}
+#zhong{
+	width: 1376px;
+	background-color: #F2F2F2;
+}
+#mid{
+	margin-left:170px;
+	width: 1000px;
+	background-color: white;
+}
+#mid_top{
+	padding: 10px;
+}
+/*这里的文字与下面共一个class*/
+.mid_top1{
+	height: 35px;
+	line-height: 35px;
+	font: bold 18px 宋体;
+	color: gray;
+}
+ul,li{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#mid_top2 ul{
+	float: left;
+}
+#mid_top2 ul li{
+	float: left;
+	margin: 0px 18px 0px 18px;
+}
+#mid_lr{
+
+	width: 1000px;
+	height: 560px;
+}
+#mid_left{
+	margin-left:10px;
+	margin-top: 5px;
+		width: 650px;
+		height: 550px;
+		float: left;
+}
+#pinlun img{
+	position: relative;
+	top: 36px;
+	margin-right:5px ;
+	float: left;
+}
+#kuang{
+	margin: 0px;
+	width: 579px;
+	height: 84px;
+	border: 1px solid gainsboro;
+	float: left;
+}
+#fabu input{
+	margin-top:20px;
+	margin-left: 550px;
+	width: 87px;
+	height: 34px;
+	background-color: #F2F2F2;
+}
+#liuyan{
+	width: 630px;
+}
+.photo img{
+	margin: 10px;
+	margin-left: 0px;
+	float: left;
+}
+.photo li{
+	font: 12px 宋体;
+	color: gray;
+	height: 75px;
+	margin-bottom: 10px;
+	border-bottom:2px solid #F2F2F2;
+}
+.photo a{
+	position: relative;
+	top: 15px;
+}
+.photo li .support{
+	float: right;
+	margin-right: 15px;
+}
+.photo li .support a{
+	text-decoration: none;
+	color: green;
+}
+#mid_right{
+	margin-top: 5px;
+	width: 304px;
+	height: 376px;
+	float: left;
+	background-image: url(images/topbg.jpg);
+}
+#dongtai{
+	margin-left:20px ;
+	margin-top: 60px;
+}
+#dongtai li{
+	margin-bottom:10px ;
+}
+#dongtai a{
+	font: 12px 宋体;
+	color: #000000;
+	text-decoration: none;
+}
+#footer{
+	height: 80px;
+	width: 1376px;
+	background-color: white;
+}
+#footer ul{
+	margin-left:380px;
+	height: 45px;
+	float: left;
+}
+#footer ul li{
+	margin: 15px;
+	padding: 0px;
+	height: 45px;
+	float: left;
+}
+#footer ul li a{
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	text-decoration: none;
+	color: grey;
+	font: 16px 宋体;
+}

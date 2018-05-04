@@ -1,0 +1,104 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+body{
+	background: #F2F2F2;
+}
+#wrapper{
+	margin-left: 190px;
+	margin-top:40px;
+	padding: 0px;
+	width: 980px;
+	height: 370px;
+	border: 1px solid gainsboro;
+	background-color: white;
+}
+#top{
+	width: 980px;
+	height: 80px;
+	border: 1px solid gainsboro;
+}
+ul,li{
+	margin: opx;
+	padding: opx;
+	list-style-type: none;
+}
+#top li{
+	margin-top:20px ;
+	text-align: center;
+	font:bold 30px 宋体;
+}
+#content,#content1,#content2{
+	margin: 0px;
+	padding: 0px;
+}
+#content{
+	width: 980px;
+}
+#content_left{
+	width: 510px;
+	float: left;
+}
+#content_mid{
+	float: left;
+}
+#content_mid img{
+	margin-top: 30px;
+}
+#content_right{
+	float: left;
+	width: 460px;
+}
+#c1{
+	margin-top: 50px;
+	margin-left:24px ;
+	height: 40px;
+	width: 480px;
+}
+#c1 a{
+	height: 40px;
+	line-height: 40px;
+	font:bold 20px 宋体;
+}
+#c2{
+	margin-top: 0px;
+	margin-left:65px ;
+	height: 120px;
+}
+.c2{
+	margin: 0px;
+	padding: 0px;
+	margin-right: 50px;
+	float: left;
+}
+#c3{
+	margin-left: 340px;
+	width: 170px;
+}
+#c3 a{
+	font: 16px 宋体;
+}
+#k1{
+	margin-top:50px;
+	margin-left: 20px;
+	margin-bottom:30px ;
+}
+#k1 a{
+	height: 40px;
+	line-height: 40px;
+	font:bold 20px 宋体;
+}
+.margin{
+	margin-left:26px;
+	margin-top:15px ;
+}
+.margin a{
+	text-decoration: none;
+	font: 10px "宋体";
+	color: green;
+}
+

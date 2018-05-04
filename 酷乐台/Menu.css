@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+.line{
+	position: relative;
+	top: 5px;
+	height: 35px;
+	width: 1px;
+	background-image: url(images/nav_line.png);
+	background-repeat: no-repeat;
+	
+}
+#wrapper,#top,#footer{
+	margin: 0px auto;
+	padding: 0px;
+	width: 1376px;
+	
+}
+#top{
+	background-color: #242424;
+}
+#top img{
+	margin-left:10px ;
+	margin-right:25px ;
+	height: 45px;
+	width: 100px;
+	float: left;
+}
+ul,li{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0px;
+	border: 0px;
+	list-style-type:none ;
+}
+#top ul{
+	float: left;
+	margin-left: 0px;
+	width: 700px;
+	height: 45px;
+}
+#top ul li{
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#top ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+#txtInput{
+	margin: 0px;
+	height: 45px;
+	line-height: 40px;
+	width: 300px;
+	float: left;
+}
+#txtInput img{
+	margin-top: 14px;
+	width:15px;
+	height: 15px;
+	position: relative;
+	left: 41px;
+}
+#login{
+	height: 45px;
+	width: 200px;
+	float: left;
+}
+#login ul{
+	height: 45px;
+	width: 200px;
+	float: left;
+}
+#login ul li{
+	margin-left:10px ;
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	float: left;
+}
+#login ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+#photo{
+	margin: 0px;
+	padding: 0px;
+	width: 1376px;
+	height: 500px;
+}
+#photo img{
+	width: 1376px;
+	height: 500px;
+}
+#main{
+	margin: 0px;
+	width: 1376px;
+	background-color: #f2f2f2;
+}
+.nav{
+	margin: 0px 80px 0px 60px;
+	height: 50px;
+}
+.nav ul{
+	float: right;
+	height: 50px;
+}
+.nav ul li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.nav ul li img{
+	position: relative;
+	top: 17px;
+}
+.nav ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: darkgray;
+}
+.nav img{
+	float: left;
+}
+.content{
+	margin: 5px 80px 0px 60px;
+}
+/*设置第一层后三个框架的浮动和第二层的后两个框浮动一样，可以抽象类*/
+.content-1{
+	margin-right: 5px;
+	margin-left: 20px;
+	width: 220px;
+	height: 275px;/*设置高度，撑起content*/
+	float: right;
+}
+/*设置第一层后三个框架的内部两个框架，可是第二层中后两个框架内部的两个框也是如此，所以共用contentfirst-1这个名字*/
+.contentfirst-1{
+	margin: 0px 0px 25px 0px;
+	padding: 0px;
+	width: 220px;
+	height: 125px;
+}
+/*这是文字图片部分*/
+#content_2{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 730px;
+	height: 275px;
+	background-color: white;
+}
+#content_2 img{
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+/*-2表示类选择器，控制最后五张图片左浮动*/
+.content-2{
+	margin-right: 32px;
+	margin-left: 0px;
+	width: 220px;
+	height: 275px;
+	float: left;
+}
+#footer{
+	height: 80px;
+}
+#footer ul{
+	margin-left:380px;
+	height: 45px;
+	float: left;
+}
+#footer ul li{
+	margin: 15px;
+	padding: 0px;
+	height: 45px;
+	float: left;
+}
+#footer ul li a{
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	text-decoration: none;
+	color: grey;
+	font: 16px 宋体;
+}
